@@ -266,6 +266,8 @@ p {
 
   
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  
 
 }
 
@@ -306,11 +308,9 @@ p {
 }
 
 .icon-close {
-  position: absolute;
-  right: 0;
-  top: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
-
 
 
 
@@ -782,6 +782,67 @@ p {
 }
 
 /* Примеры работ */
+.overlay-box {
+  position: relative;
+}
+
+.overlay-box:hover::after {
+  opacity: 1;
+}
+
+.overlay-box::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  display: inline-block;
+  border: 1px solid red;
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  
+}
+
+
+.overlay {
+  width: 322px;
+  height: 168px;
+  display: inline-block;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0;
+}
+
+.overlay:hover {
+  content: '';
+  opacity: 1;
+}
+
+
+
+.overlay-text {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+   
+  
+    letter-spacing: 0.03em;
+  
+    color: #FFFFFF;
+
+    
+}
+
+
 
 .portfolio {
   position: absolute;
@@ -831,6 +892,8 @@ p {
   display: block;
   max-width: 100%;
   height: auto;
+  position: relative;
+  
 }
 
 .project-name {
