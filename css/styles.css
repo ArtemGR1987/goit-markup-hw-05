@@ -128,21 +128,21 @@ p {
 }
 
 
-
-
 .link.current {
   position: relative;
-  
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .link.current::after {
   content: '';
   display: block;
-  width: auto;
+  width: 100px;
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  
+ 
 
   position: absolute;
   left: 0px;
