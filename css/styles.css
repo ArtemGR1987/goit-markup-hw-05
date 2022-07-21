@@ -314,10 +314,13 @@ p {
 }
 
 
-.button .close {
+.close {
   position: absolute;
   top: 0;
   right: 0;
+
+  border: var(--main-white-color);
+  background-color: var(--main-white-color);
 }
 /* Наши преимущества */
 
