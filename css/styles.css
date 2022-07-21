@@ -73,13 +73,7 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  
-  
-  
 }
-
-
-
 
 .main-nav-link {
   padding-top: 24px;
@@ -106,7 +100,6 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-inline-start: 0px;
-
 }
 
 .site-nav .site-nav-item {
@@ -130,27 +123,23 @@ p {
   color: var(--accent-color);
 }
 
-
 .link.current {
   position: relative;
   padding-bottom: 32px;
 }
 
 .link.current::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
- 
 
   position: absolute;
   left: 0;
   bottom: -1px;
-
 }
-
 
 .site-nav :hover,
 .site-nav :focus {
@@ -160,7 +149,6 @@ p {
 .link {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .contacts {
   margin-left: auto;
@@ -270,16 +258,13 @@ p {
   margin-left: auto;
   margin-right: auto;
 
-  
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--button-background-color);
 }
-
 
 .backdrop.is-hidden {
   opacity: 0;
@@ -292,33 +277,30 @@ p {
   height: 100%;
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.2);
-  
+
   border-radius: 4px;
   top: 0;
   left: 0;
 }
-
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 
   width: 528px;
   height: 581px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .icon-close {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-
 
 .close {
   position: absolute;
@@ -429,33 +411,29 @@ p {
   margin-right: 30px;
 }
 
-
 .img-box {
   position: relative;
 }
 
-
 .box-content {
   position: absolute;
 
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-white-color);
-    background-color: rgba(47, 48, 58, 0.8);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
 
-    width: 100%;
-    height: 70px;
+  width: 100%;
+  height: 70px;
 
-    bottom: 0;
-    
+  bottom: 0;
 }
-
 
 .box-name {
   padding-top: 27px;
@@ -550,7 +528,7 @@ p {
 
   border-radius: 50%;
 
-  transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-list {
@@ -577,8 +555,6 @@ p {
   display: flex;
   justify-content: center;
   gap: 30px;
-
-  
 }
 
 .clients-link {
@@ -589,7 +565,7 @@ p {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: #AFB1B8;
+  color: #afb1b8;
 }
 
 .clients-link:hover,
@@ -802,7 +778,6 @@ p {
 .overlay-box {
   position: relative;
   overflow: hidden;
-  
 }
 
 .overlay-box:hover::before {
@@ -810,27 +785,23 @@ p {
   transform: translateY(0%);
 }
 
-
-
 .overlay-box::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
   display: inline-block;
-  
+
   position: absolute;
-  
+
   top: 0;
   left: 0;
   opacity: 0;
   z-index: 1;
-  
+
   transform: translateY(100%);
   transition: transform 250ms;
 }
-
-
 
 .overlay {
   width: 322px;
@@ -846,28 +817,21 @@ p {
 }
 
 .overlay:hover {
-  content: '';
+  content: "";
   opacity: 1;
 }
 
-
-
 .overlay-text {
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-   
-  
-    letter-spacing: 0.03em;
-  
-    color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 
-    
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
 }
-
-
 
 .portfolio {
   position: absolute;
@@ -893,10 +857,9 @@ p {
 
 .projects-link:hover,
 .projects-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    outline: none;
+  outline: none;
 }
 
 .projects {
@@ -918,7 +881,6 @@ p {
   max-width: 100%;
   height: auto;
   position: relative;
-  
 }
 
 .project-name {
